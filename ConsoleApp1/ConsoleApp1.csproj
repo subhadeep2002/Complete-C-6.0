@@ -1,0 +1,121 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{B7356099-EAF6-4F6C-A5CC-F7A4BFE7078B}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>ConsoleApp1</RootNamespace>
+    <AssemblyName>ConsoleApp1</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>ConsoleApp1.Class14</StartupObject>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Arithmetic.cs" />
+    <Compile Include="ArrayMethods.cs" />
+    <Compile Include="Branch.cs" />
+    <Compile Include="Branch1.cs" />
+    <Compile Include="Car.cs" />
+    <Compile Include="Class1.cs" />
+    <Compile Include="Class10.cs" />
+    <Compile Include="Class11.cs" />
+    <Compile Include="Class12.cs" />
+    <Compile Include="Class13.cs" />
+    <Compile Include="Class14.cs" />
+    <Compile Include="Class2.cs" />
+    <Compile Include="Class3.cs" />
+    <Compile Include="Class4.cs" />
+    <Compile Include="Class5.cs" />
+    <Compile Include="Class6.cs" />
+    <Compile Include="Class7.cs" />
+    <Compile Include="Class9.cs" />
+    <Compile Include="ClassA.cs" />
+    <Compile Include="ClsBoxing.cs" />
+    <Compile Include="ClsDelegate.cs" />
+    <Compile Include="ClsDelegate1.cs" />
+    <Compile Include="ClsEmp.cs" />
+    <Compile Include="ClsEmployee.cs" />
+    <Compile Include="ClsEnum.cs" />
+    <Compile Include="ClsException.cs" />
+    <Compile Include="ClsGeneric.cs" />
+    <Compile Include="ClsGeneric1.cs" />
+    <Compile Include="ClsPartial.cs" />
+    <Compile Include="Clspointer.cs" />
+    <Compile Include="Clspointer1.cs" />
+    <Compile Include="ClsProperty.cs" />
+    <Compile Include="Clssample.cs" />
+    <Compile Include="DynamicArray.cs" />
+    <Compile Include="Employee.cs" />
+    <Compile Include="Employee1.cs" />
+    <Compile Include="Employee3.cs" />
+    <Compile Include="Employee4.cs" />
+    <Compile Include="Employee6.cs" />
+    <Compile Include="Employee9.cs" />
+    <Compile Include="Epmloyee2.cs" />
+    <Compile Include="Exam1.cs" />
+    <Compile Include="Exam10.cs" />
+    <Compile Include="Exam10_2.cs" />
+    <Compile Include="Exam10_3.cs" />
+    <Compile Include="Exam2.cs" />
+    <Compile Include="Exam3.cs" />
+    <Compile Include="Exam4.cs" />
+    <Compile Include="Exam5.cs" />
+    <Compile Include="Exam6.cs" />
+    <Compile Include="Exam7.cs" />
+    <Compile Include="Exam8.cs" />
+    <Compile Include="Exam8_2.cs" />
+    <Compile Include="Exam9.cs" />
+    <Compile Include="Interface1.cs" />
+    <Compile Include="JaggedArray.cs" />
+    <Compile Include="Parent.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Property1.cs" />
+    <Compile Include="SDArray.cs" />
+    <Compile Include="SDArrayRuntime.cs" />
+    <Compile Include="ToooldException.cs" />
+    <Compile Include="TWODArray.cs" />
+    <Compile Include="TwoDArrayRuntime.cs" />
+    <Compile Include="Vehicle1.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
